@@ -6705,6 +6705,16 @@
 		)
 		(uuid "08fe2135-f7ff-461a-a031-fbd73474cb70")
 	)
+	(text "Powerdelivery\n"
+		(exclude_from_sim no)
+		(at 31.75 103.886 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1c2ec234-ca89-476d-9741-a943ed84484a")
+	)
 	(text "E-\n"
 		(exclude_from_sim no)
 		(at 100.076 62.23 0)
@@ -6714,6 +6724,16 @@
 			)
 		)
 		(uuid "262029ad-5b77-4cdd-87e9-49dbf41da84b")
+	)
+	(text "USB"
+		(exclude_from_sim no)
+		(at 33.02 46.228 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2e632c4e-d9e3-4bd6-a17e-b4845a52cd9e")
 	)
 	(text "S+\n"
 		(exclude_from_sim no)
@@ -6727,13 +6747,33 @@
 	)
 	(text "Wegezelle\n(Pinheader)\n"
 		(exclude_from_sim no)
-		(at 105.156 48.26 0)
+		(at 103.124 51.562 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "3ba9fde9-cae3-45d1-8316-4d67c1e0c74c")
+	)
+	(text "Fallback Pins\n"
+		(exclude_from_sim no)
+		(at 282.702 72.39 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4504f848-6d2d-4a72-8e48-2efb119e25f7")
+	)
+	(text "Debug Pins"
+		(exclude_from_sim no)
+		(at 177.8 104.394 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ae9991a4-3e15-407c-a633-f07a58729e20")
 	)
 	(text "E+\n"
 		(exclude_from_sim no)
@@ -7330,6 +7370,16 @@
 			(type default)
 		)
 		(uuid "18c0be04-cd9e-4ad4-8df7-f015b4a2a9c9")
+	)
+	(wire
+		(pts
+			(xy 68.58 135.89) (xy 68.58 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a538162-aeb5-4346-b3dd-3ff6ec83a902")
 	)
 	(wire
 		(pts
@@ -11073,7 +11123,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 133.35 0)
+		(at 68.58 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11084,7 +11134,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c058de0-56a6-47f6-a226-6fea6da9a7ff")
 		(property "Reference" "#PWR035"
-			(at 68.58 139.7 0)
+			(at 68.58 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11095,7 +11145,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 138.43 0)
+			(at 68.58 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11105,7 +11155,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 133.35 0)
+			(at 68.58 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11116,7 +11166,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 133.35 0)
+			(at 68.58 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11127,7 +11177,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 133.35 0)
+			(at 68.58 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
